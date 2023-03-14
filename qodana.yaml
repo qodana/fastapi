@@ -1,0 +1,4 @@
+version: 1.0
+bootstrap: |
+  pip install flit
+  flit install --deps develop --symlink
